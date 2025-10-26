@@ -1,0 +1,304 @@
+/* App Container */
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Google Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* App Header */
+.app-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.app-header h1 {
+  color: #1a73e8;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+}
+
+.app-header p {
+  color: #5f6368;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* Question Container */
+.question-container {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.question-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #202124;
+  margin: 0 0 2rem 0;
+  line-height: 1.4;
+}
+
+/* Options Container */
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.option-button {
+  background: white;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  color: #3c4043;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.option-button:hover {
+  border-color: #1a73e8;
+  background-color: #f8f9ff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.option-button:focus {
+  outline: none;
+  border-color: #1a73e8;
+  box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.2);
+}
+
+.option-button:active {
+  background-color: #e8f0fe;
+  border-color: #1a73e8;
+}
+
+/* Progress Indicator */
+.progress-indicator {
+  text-align: center;
+  color: #5f6368;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+/* Movie Result Styles */
+.movie-result-container {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.movie-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e8eaed;
+}
+
+.movie-title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #1a73e8;
+  margin: 0;
+}
+
+.movie-year {
+  font-size: 1.2rem;
+  color: #5f6368;
+  margin: 0.5rem 0 0 0;
+}
+
+.movie-content {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.movie-poster img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.movie-info {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.movie-info p {
+  margin: 0.5rem 0;
+  color: #3c4043;
+}
+
+.movie-description h3 {
+  color: #202124;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+}
+
+.movie-description p {
+  color: #5f6368;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.movie-actions {
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid #e8eaed;
+}
+
+.restart-button {
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-family: inherit;
+}
+
+.restart-button:hover {
+  background: #1557b0;
+}
+
+.restart-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.2);
+}
+
+/* Error Message */
+.error-message {
+  text-align: center;
+  background: white;
+  border-radius: 8px;
+  padding: 3rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.error-message h1 {
+  color: #d93025;
+  font-size: 2rem;
+  margin: 0 0 1rem 0;
+}
+
+.error-message p {
+  color: #5f6368;
+  font-size: 1.1rem;
+  margin: 0 0 2rem 0;
+}
+
+.error-message button {
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.error-message button:hover {
+  background: #1557b0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .app {
+    padding: 1rem;
+  }
+  
+  .app-header h1 {
+    font-size: 2rem;
+  }
+  
+  .movie-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  
+  .movie-poster {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  
+  .question-container {
+    padding: 1.5rem;
+  }
+  
+  .movie-result-container {
+    padding: 1.5rem;
+  }
+}
+
+/* Trailer Styles */
+.movie-trailer {
+  margin-top: 1.5rem;
+}
+
+.movie-trailer h3 {
+  color: #202124;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+}
+
+.trailer-embed {
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.trailer-embed iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  border: none;
+  display: block;
+}
+
+.trailer-link {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border: 1px solid #1a73e8;
+  border-radius: 4px;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.trailer-link:hover {
+  background-color: #1a73e8;
+  color: white;
+}

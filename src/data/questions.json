@@ -1,0 +1,356 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "text": "What type of scary movie do you prefer?",
+      "options": [
+        {
+          "id": "supernatural",
+          "text": "Supernatural/Haunted house",
+          "nextQuestion": "2"
+        },
+        {
+          "id": "slasher",
+          "text": "Slasher/Serial killer",
+          "nextQuestion": "3"
+        },
+        {
+          "id": "psychological",
+          "text": "Psychological thriller",
+          "nextQuestion": "4"
+        },
+        {
+          "id": "monster",
+          "text": "Monster/Creature feature",
+          "nextQuestion": "5"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "text": "How intense do you want the supernatural elements?",
+      "options": [
+        {
+          "id": "subtle",
+          "text": "Subtle and atmospheric",
+          "nextQuestion": "6"
+        },
+        {
+          "id": "intense",
+          "text": "Full-on ghostly encounters",
+          "nextQuestion": "7"
+        },
+        {
+          "id": "demonic",
+          "text": "Demonic possession",
+          "nextQuestion": "8"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "text": "What's your preferred slasher style?",
+      "options": [
+        {
+          "id": "classic",
+          "text": "Classic 80s slasher",
+          "nextQuestion": "9"
+        },
+        {
+          "id": "modern",
+          "text": "Modern psychological slasher",
+          "nextQuestion": "10"
+        },
+        {
+          "id": "meta",
+          "text": "Self-aware/meta slasher",
+          "nextQuestion": "11"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "text": "What psychological element interests you most?",
+      "options": [
+        {
+          "id": "mind",
+          "text": "Mind games and manipulation",
+          "nextQuestion": "12"
+        },
+        {
+          "id": "reality",
+          "text": "Reality vs. perception",
+          "nextQuestion": "13"
+        },
+        {
+          "id": "isolation",
+          "text": "Isolation and paranoia",
+          "nextQuestion": "14"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "text": "What type of monster appeals to you?",
+      "options": [
+        {
+          "id": "alien",
+          "text": "Alien creatures",
+          "nextQuestion": "15"
+        },
+        {
+          "id": "zombie",
+          "text": "Zombies/Undead",
+          "nextQuestion": "16"
+        },
+        {
+          "id": "mythical",
+          "text": "Mythical creatures",
+          "nextQuestion": "17"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "text": "Do you prefer older or newer supernatural films?",
+      "options": [
+        {
+          "id": "classic",
+          "text": "Classic (pre-2000)",
+          "movieId": "the-shining-1980"
+        },
+        {
+          "id": "modern",
+          "text": "Modern (2000+)",
+          "movieId": "babadook-2014"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "text": "How much gore can you handle?",
+      "options": [
+        {
+          "id": "minimal",
+          "text": "Minimal gore",
+          "movieId": "the-conjuring-2013"
+        },
+        {
+          "id": "moderate",
+          "text": "Moderate gore",
+          "movieId": "insidious-2010"
+        },
+        {
+          "id": "heavy",
+          "text": "Heavy gore",
+          "movieId": "the-exorcist-1973"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "text": "What era of demonic films do you prefer?",
+      "options": [
+        {
+          "id": "classic",
+          "text": "Classic demonic",
+          "movieId": "the-exorcist-1973"
+        },
+        {
+          "id": "modern",
+          "text": "Modern demonic",
+          "movieId": "hereditary-2018"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "text": "What's your favorite classic slasher element?",
+      "options": [
+        {
+          "id": "masked",
+          "text": "Masked killer",
+          "movieId": "halloween-1978"
+        },
+        {
+          "id": "summer",
+          "text": "Summer camp setting",
+          "movieId": "friday-the-13th-1980"
+        },
+        {
+          "id": "dream",
+          "text": "Dream sequences",
+          "movieId": "nightmare-on-elm-street-1984"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "text": "What modern slasher theme interests you?",
+      "options": [
+        {
+          "id": "social",
+          "text": "Social commentary",
+          "movieId": "get-out-2017"
+        },
+        {
+          "id": "family",
+          "text": "Family dynamics",
+          "movieId": "antichrist-2009"
+        },
+        {
+          "id": "survival",
+          "text": "Survival horror",
+          "movieId": "the-strangers-2008"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "text": "What meta element appeals to you?",
+      "options": [
+        {
+          "id": "rules",
+          "text": "Horror movie rules",
+          "movieId": "scream-1996"
+        },
+        {
+          "id": "sequel",
+          "text": "Sequel commentary",
+          "movieId": "scream-2-1997"
+        },
+        {
+          "id": "remake",
+          "text": "Remake commentary",
+          "movieId": "scream-4-2011"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "text": "What type of mind games do you prefer?",
+      "options": [
+        {
+          "id": "gaslighting",
+          "text": "Gaslighting",
+          "movieId": "gaslight-1944"
+        },
+        {
+          "id": "memory",
+          "text": "Memory manipulation",
+          "movieId": "memento-2000"
+        },
+        {
+          "id": "identity",
+          "text": "Identity confusion",
+          "movieId": "fight-club-1999"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "text": "What reality-bending element interests you?",
+      "options": [
+        {
+          "id": "time",
+          "text": "Time manipulation",
+          "movieId": "triangle-2009"
+        },
+        {
+          "id": "space",
+          "text": "Space distortion",
+          "movieId": "the-house-with-the-laughing-windows-1976"
+        },
+        {
+          "id": "dimension",
+          "text": "Parallel dimensions",
+          "movieId": "coherence-2013"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "text": "What isolation setting appeals to you?",
+      "options": [
+        {
+          "id": "remote",
+          "text": "Remote location",
+          "movieId": "the-descent-2005"
+        },
+        {
+          "id": "urban",
+          "text": "Urban isolation",
+          "movieId": "it-follows-2015"
+        },
+        {
+          "id": "psychological",
+          "text": "Psychological isolation",
+          "movieId": "the-machinist-2004"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "text": "What alien threat level do you prefer?",
+      "options": [
+        {
+          "id": "invasion",
+          "text": "Full invasion",
+          "movieId": "nosferatu-1979"
+        },
+        {
+          "id": "parasite",
+          "text": "Parasitic aliens",
+          "movieId": "alien-1979"
+        },
+        {
+          "id": "predator",
+          "text": "Hunting aliens",
+          "movieId": "predator-1987"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "text": "What zombie style do you prefer?",
+      "options": [
+        {
+          "id": "slow",
+          "text": "Slow, classic zombies",
+          "movieId": "night-of-the-living-dead-1968"
+        },
+        {
+          "id": "fast",
+          "text": "Fast, modern zombies",
+          "movieId": "28-days-later-2002"
+        },
+        {
+          "id": "comedy",
+          "text": "Zombie comedy",
+          "movieId": "shaun-of-the-dead-2004"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "text": "What mythical creature interests you?",
+      "options": [
+        {
+          "id": "vampire",
+          "text": "Vampires",
+          "movieId": "let-the-right-one-in-2008"
+        },
+        {
+          "id": "werewolf",
+          "text": "Werewolves",
+          "movieId": "an-american-werewolf-in-london-1981"
+        },
+        {
+          "id": "witch",
+          "text": "Witches",
+          "movieId": "the-witch-2016"
+        }
+      ]
+    }
+  ]
+}
